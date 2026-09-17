@@ -4,11 +4,11 @@ Site institucional completo para uma consultoria de Segurança e Saúde do Traba
 
 ## Tecnologias
 
-| Camada | Tecnologia |
-| --- | --- |
-| Frontend | Next.js 16, React 19, TypeScript, Tailwind CSS 4 e Lucide React |
-| Backend | Python 3.11+, FastAPI, Pydantic e Uvicorn |
-| Imagem | JPEG de referência fornecida pelo cliente, armazenada em `frontend/public/referencia-seguranca.jpeg` |
+| Camada   | Tecnologia                                                                                           |
+| -------- | ---------------------------------------------------------------------------------------------------- |
+| Frontend | Next.js 16, React 19, TypeScript, Tailwind CSS 4 e Lucide React                                      |
+| Backend  | Python 3.11+, FastAPI, Pydantic e Uvicorn                                                            |
+| Imagem   | JPEG de referência fornecida pelo cliente, armazenada em `frontend/public/referencia-seguranca.jpeg` |
 
 O frontend é responsável pela experiência institucional. O backend possui endpoints de saúde e recebimento/validação do formulário de contato. A integração com e-mail, CRM ou banco pode ser adicionada posteriormente no endpoint `POST /api/contact`.
 
@@ -94,12 +94,12 @@ ALLOWED_ORIGINS=http://localhost:3000
 
 ## O que cada página faz
 
-| Página/endpoint | Função |
-| --- | --- |
-| `/` | Landing page da SeguraMais: hero, serviços, apresentação, processo, contato e FAQ. |
-| `/api/health` | Verifica se a API está online. |
-| `/api/contact` | Valida e recebe nome, empresa e mensagem enviados pelo formulário. |
-| `/docs` | Documentação interativa automática da API FastAPI. |
+| Página/endpoint | Função                                                                             |
+| --------------- | ---------------------------------------------------------------------------------- |
+| `/`             | Landing page da SeguraMais: hero, serviços, apresentação, processo, contato e FAQ. |
+| `/api/health`   | Verifica se a API está online.                                                     |
+| `/api/contact`  | Valida e recebe nome, empresa e mensagem enviados pelo formulário.                 |
+| `/docs`         | Documentação interativa automática da API FastAPI.                                 |
 
 ## Onde personalizar o conteúdo
 
